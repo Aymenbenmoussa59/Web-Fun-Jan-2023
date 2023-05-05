@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+    </head>
+    <body>
+        <h1>
+            Registration Form 
+        </h1>
+        <form action="/process" method="post">
+            <div>
+               <label for="">First Name:*</label>
+               <input type="text" name="First Name:*">
+            </div>
+            <div>
+                <label for="">Last Name:*</label>
+                <input type="text" name="Last Name:*">
+            </div>
+            <div>
+                <label for="">Email Adress:*</label>
+                <input type="text" name="Email Adress:*">
+            </div>
+            <div>
+                <label for="">Confirm Password:*</label>
+                <input type="password" name="Confirm Password:*">
+            </div>
+            <div>
+                <label for="">Birthday:</label>
+                <input type="date" name="Birthday:" placeholder="mm/dd/yyyy">
+            </div>
+            <div>
+                <label for="">Gender Identity :</label>
+            </div>
+            <div>
+                <input type="radio" name="font" value="Male" id="Male">
+                <input type="radio" name="font" value="Female" id="Female">
+                <input type="radio" name="font" value="Non-bianary" id="Non-bianary">
+                <input type="radio" name="font" value="I prefer not to answer" id="I prefer not to answer">
+            </div>
+            <div>
+            <label for="">a short description about myself: </label>
+            </div>
+            <div>
+                <textarea name="comment" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="">Favourite Language:</label>
+                <select name="snack">
+                    <option value="JavaScript">JavaScript</option>
+            </div>
+            <div>
+                <input type="checkbox" name="offers">
+                <label for=""> Yes, I would like to receive periodic email updates</label>
+            </div>
+            <div>
+                <button>Create Account</button>
+            </div>
+            <div>
+                <label for="">* Indices a required field</label>
+            </div>
+        </form>
+
+    </body>
+</html>
