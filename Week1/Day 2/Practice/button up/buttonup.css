@@ -1,0 +1,31 @@
+.search{
+    background-color: white;
+    color: #00D1B2;
+    width: 150px;
+    height: 30px;
+    border: 2px solid #00D1B2 ;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.plus{
+    background-color: #00D1B2;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.test{
+    background-color: blue;
+    color: white;
+    width: 170px;
+    height: 30px;
+    box-shadow:  2px 2px 0px 1px rgba(0,0,0,0.75);
+    margin-left: 50px;
+}
+
