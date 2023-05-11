@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Likes</title>
+    <link rel="stylesheet" href="./likes.css" />
+</head>
+
+<body>
+    <section class="navbar">
+        <nav class="navheading">
+            <p>Network</p>
+        </nav>
+    </section>
+    <div class="feed">
+        <p>Your Feed</p>
+    </div>
+    <div>
+        <section class="column">
+            <div class="main-card">
+                <ul>
+                    <li> <img src="./todd-s.jpg" alt="user profile"> </li>
+                    <li>
+                    <a href="#" class="">Add an avatar</a> 
+                    </li>
+                    <li>
+                        <p class="name">James Doe</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="column">
+            <div class="user-card">
+                <div class="top-card">
+                    <p class="name">Neil M</p>
+                    <ul>
+                        <li class="like">0 like(s)</li>
+                        <li> 
+                            <button onclick="likeOne(this)">Like</button>
+                        </li>
+                    </ul>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think.
+                    <a href="">link</a> 
+                </p>
+            </div>
+            <div class="user-card">
+                <div class="top-card">
+                    <p class="name">Nichole K</p>
+                    <ul>
+                        <li class="like2">0 like(s)</li>
+                        <li> 
+                            <button onclick="likeTwo(this)">Like</button>
+                        </li>
+                    </ul>
+                </div>
+                <p>
+                    Just finished my
+            <a href="#">next comic</a>,
+                    check it out.
+                </p>
+            </div>
+            <div class="user-card">
+                <div class="top-card">
+                    <p class="name">Jim R</p>
+                    <ul>
+                        <li class="like3">0 like(s)</li>
+                        <li> 
+                            <button onclick="likeThree(this)">Like</button>
+                        </li>
+                    </ul>
+                </div>
+                <p>
+                    I can't stop listening to the <a href="#">new album</a>. Who else is liking it?
+                </p>
+            </div>
+        </section>
+    </div>
+    <script src="./likes.js"></script>
+</body>
+
+</html>
