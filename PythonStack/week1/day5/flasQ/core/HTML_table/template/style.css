@@ -1,0 +1,10 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* styling for table container */
+div {
+    max-width: 600px;
+    margin: 20px auto;
+}
